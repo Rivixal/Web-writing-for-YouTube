@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Logotype</h1>
+            <nav>
+                <ul>
+                    <div class="hidepc">
+                        <li><a href="#" class="active">Главная</a></li>
+                        <li><a href="#">Проекты</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </div>
+                    <div class="hidem">
+                        <li><a id="more">Меню</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a id="closeBtn" onclick="closeSidebar()">Закрыть</a>
+        <br>
+        <a href="#" class="active">Главная</a>
+        <a href="#">Проекты</a>
+        <a href="#">Блог</a>
+    </div>
+
+    <script src="script/menu.js"></script>
+</body>
+</html>
